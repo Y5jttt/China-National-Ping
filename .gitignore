@@ -1,0 +1,34 @@
+# Binary
+smartping
+smartping.exe
+*.exe
+smartping_bin
+
+# Config (use config.json.example)
+conf/config.json
+conf/*.local.json
+
+# Database
+db/*.db
+
+# Logs
+logs/
+*.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies (will be restored by go mod)
+vendor/
+
+# Temp files
+tmp/
+temp/
+*.tmp
