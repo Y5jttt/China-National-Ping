@@ -1,10 +1,10 @@
-# SmartPing
+# China-National-Ping
 
 [English](README_EN.md) | 中文
 
-SmartPing 是一个开源的网络延迟监控工具，支持多地区多运营商的 Ping 监测，通过可视化地图展示全国各地的网络延迟情况。
+China-National-Ping 是一个开源的网络延迟监控工具，支持多地区多运营商的 Ping 监测，通过可视化地图展示全国各地的网络延迟情况。
 
-![SmartPing界面](screenshot.png)
+![China-National-Ping界面](screenshot.png)
 
 ## 功能特性
 
@@ -26,12 +26,12 @@ SmartPing 是一个开源的网络延迟监控工具，支持多地区多运营�
 
 ```bash
 # 克隆项目
-git clone https://github.com/smartping/smartping.git
-cd smartping
+git clone https://github.com/Y5jttt/China-National-Ping.git
+cd China-National-Ping
 
 # 编译
 cd src
-go build -o smartping ..
+go build -o China-National-Ping ..
 ```
 
 ### 配置
@@ -49,10 +49,10 @@ vi conf/config.json
 
 ```bash
 # Linux/Mac
-./smartping
+./China-National-Ping
 
 # Windows
-smartping.exe
+China-National-Ping.exe
 ```
 
 访问 http://localhost:8899
@@ -60,14 +60,14 @@ smartping.exe
 ## 项目结构
 
 ```
-smartping/
+China-National-Ping/
 ├── html/              # 前端页面
 │   ├── index.html    # 中国地图监控页面
 │   └── assets/       # 静态资源 (CSS, JS, 地图数据)
 ├── conf/             # 配置文件
 │   └── config.json.example  # 配置模板
 ├── src/              # Go 源代码
-│   ├── smartping.go  # 主程序入口
+│   ├── China-National-Ping.go  # 主程序入口
 │   ├── http/         # HTTP 服务器
 │   ├── funcs/        # 核心功能函数
 │   └── g/            # 全局变量和配置
@@ -189,9 +189,5 @@ A: 数据存储在 `db/` 目录下的 SQLite 数据库中。
 
 ## 许可证
 
-本项目采用 MIT 许可证 - 详见 [LICENSE](LICENSE) 文件
+本项目采用 Apache License 2.0 许可证 - 详见 [LICENSE](LICENSE) 文件
 
-## 致谢
-
-- [ECharts](https://echarts.apache.org/) - 数据可视化库
-- [Go](https://golang.org/) - Go 语言
