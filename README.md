@@ -108,7 +108,7 @@ China-National-Ping/
 
 ### 添加监控节点（IP）
 
-在 `Chinamap` 中添加监控节点，格式为：
+本项目提供作者筛选的IP列表[JSON格式（可直接导入/conf/config.json）](IP.json)和[Excel表格](IP.xlsx)，包括省、市、运营商。你也可以在 `Chinamap` 中添加监控节点，格式为：
 
 ```json
 "省份": {
