@@ -4,7 +4,7 @@
 
 China-National-Ping 是一个开源的网络延迟监控工具，支持多地区多运营商的 Ping 监测，通过可视化地图展示全国各地的网络延迟情况。
 
-![China-National-Ping界面](screenshot.png)
+![China-National-Ping界面](screenshot/screenshots.png)
 
 ## 功能特性
 
